@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "WKU 10th Year Anniversary",
+    siteUrl: 'https://www.yourdomain.tld',
+    title: 'WKU 10th Year Anniversary',
   },
-  plugins: ["gatsby-plugin-react-helmet"],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-typescript', 'gatsby-plugin-less'],
 };
