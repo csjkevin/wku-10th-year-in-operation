@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: 'https://www.yourdomain.tld',
     title: 'WKU 10th Year in Operation',
   },
-  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-typescript'],
+  plugins: ['gatsby-plugin-typescript', 'gatsby-plugin-react-helmet', 'gatsby-plugin-pnpm'],
 };
