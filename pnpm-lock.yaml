@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': ^13.1.0
   '@commitlint/config-conventional': ^13.1.0
+  '@types/node': ^16.10.2
   '@types/react-helmet': ^6.1.2
   '@typescript-eslint/eslint-plugin': ^4.31.2
   '@typescript-eslint/parser': ^4.31.2
@@ -36,7 +37,7 @@ specifiers:
   webpack: ^5.54.0
 
 dependencies:
-  gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+  gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
   gatsby-plugin-react-helmet: 4.14.0_gatsby@3.14.0+react-helmet@6.1.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -45,6 +46,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
+  '@types/node': 16.10.2
   '@types/react-helmet': 6.1.2
   '@typescript-eslint/eslint-plugin': 4.31.2_3815fab247b4312be6d1f55eb1f81298
   '@typescript-eslint/parser': 4.31.2_eslint@7.32.0+typescript@4.4.3
@@ -122,6 +124,8 @@ packages:
       resolve: 1.20.0
       semver: 5.7.1
       source-map: 0.5.7
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /@babel/core/7.15.5:
@@ -205,6 +209,8 @@ packages:
       '@babel/helper-optimise-call-expression': 7.15.4
       '@babel/helper-replace-supers': 7.15.4
       '@babel/helper-split-export-declaration': 7.15.4
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/helper-create-regexp-features-plugin/7.14.5_@babel+core@7.15.5:
     resolution: {integrity: sha1-x9WsXpz2IcJgV3Ivt6ikxYiTWMQ=, tarball: '@babel/helper-create-regexp-features-plugin/download/@babel/helper-create-regexp-features-plugin-7.14.5.tgz'}
@@ -283,6 +289,8 @@ packages:
       '@babel/template': 7.15.4
       '@babel/traverse': 7.15.4
       '@babel/types': 7.15.6
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/helper-optimise-call-expression/7.15.4:
     resolution: {integrity: sha1-8xClEho7nMUtmrGRIr1ymCLe4XE=, tarball: '@babel/helper-optimise-call-expression/download/@babel/helper-optimise-call-expression-7.15.4.tgz'}
@@ -314,6 +322,8 @@ packages:
       '@babel/helper-optimise-call-expression': 7.15.4
       '@babel/traverse': 7.15.4
       '@babel/types': 7.15.6
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/helper-simple-access/7.15.4:
     resolution: {integrity: sha1-rDaJBavx3o6XgUNLY12PhnS8wTs=, tarball: '@babel/helper-simple-access/download/@babel/helper-simple-access-7.15.4.tgz'}
@@ -357,6 +367,8 @@ packages:
       '@babel/template': 7.15.4
       '@babel/traverse': 7.15.4
       '@babel/types': 7.15.6
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/highlight/7.14.5:
     resolution: {integrity: sha1-aGGlLwOWZAUAH2qlNKAaJNmejNk=, tarball: '@babel/highlight/download/@babel/highlight-7.14.5.tgz'}
@@ -402,6 +414,8 @@ packages:
       '@babel/core': 7.15.5
       '@babel/helper-create-class-features-plugin': 7.15.4_@babel+core@7.15.5
       '@babel/helper-plugin-utils': 7.14.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-proposal-class-static-block/7.15.4_@babel+core@7.15.5:
     resolution: {integrity: sha1-PnymEoRTwInotHepn5cMY/wcuNc=, tarball: '@babel/plugin-proposal-class-static-block/download/@babel/plugin-proposal-class-static-block-7.15.4.tgz'}
@@ -413,6 +427,8 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.15.4_@babel+core@7.15.5
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/plugin-syntax-class-static-block': 7.14.5_@babel+core@7.15.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-proposal-decorators/7.15.4_@babel+core@7.15.5:
     resolution: {integrity: sha1-+1VEK8g6tNRd2na5GUlwa/IogdI=, tarball: '@babel/plugin-proposal-decorators/download/@babel/plugin-proposal-decorators-7.15.4.tgz'}
@@ -424,6 +440,8 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.15.4_@babel+core@7.15.5
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/plugin-syntax-decorators': 7.14.5_@babel+core@7.15.5
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@babel/plugin-proposal-dynamic-import/7.14.5_@babel+core@7.15.5:
@@ -540,6 +558,8 @@ packages:
       '@babel/core': 7.15.5
       '@babel/helper-create-class-features-plugin': 7.15.4_@babel+core@7.15.5
       '@babel/helper-plugin-utils': 7.14.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-proposal-private-property-in-object/7.15.4_@babel+core@7.15.5:
     resolution: {integrity: sha1-VcXjtNAmH9RP5jfj9iTPsPSE4+U=, tarball: '@babel/plugin-proposal-private-property-in-object/download/@babel/plugin-proposal-private-property-in-object-7.15.4.tgz'}
@@ -552,6 +572,8 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.15.4_@babel+core@7.15.5
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.15.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-proposal-unicode-property-regex/7.14.5_@babel+core@7.15.5:
     resolution: {integrity: sha1-D5XuDnV6XWR/N42qDsp+k/qou+g=, tarball: '@babel/plugin-proposal-unicode-property-regex/download/@babel/plugin-proposal-unicode-property-regex-7.14.5.tgz'}
@@ -776,6 +798,8 @@ packages:
       '@babel/helper-replace-supers': 7.15.4
       '@babel/helper-split-export-declaration': 7.15.4
       globals: 11.12.0
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-computed-properties/7.14.5_@babel+core@7.15.5:
     resolution: {integrity: sha1-G514mHQg0RIj1BGVRhzEO5dLIE8=, tarball: '@babel/plugin-transform-computed-properties/download/@babel/plugin-transform-computed-properties-7.14.5.tgz'}
@@ -871,6 +895,8 @@ packages:
       '@babel/helper-module-transforms': 7.15.7
       '@babel/helper-plugin-utils': 7.14.5
       babel-plugin-dynamic-import-node: 2.3.3
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-modules-commonjs/7.15.4_@babel+core@7.15.5:
     resolution: {integrity: sha1-ggEQEkDqu1p2wI72GylU92e2tME=, tarball: '@babel/plugin-transform-modules-commonjs/download/@babel/plugin-transform-modules-commonjs-7.15.4.tgz'}
@@ -883,6 +909,8 @@ packages:
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/helper-simple-access': 7.15.4
       babel-plugin-dynamic-import-node: 2.3.3
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-modules-systemjs/7.15.4_@babel+core@7.15.5:
     resolution: {integrity: sha1-tCiQxzSaeMgncZ8dLQzTjH0mgTI=, tarball: '@babel/plugin-transform-modules-systemjs/download/@babel/plugin-transform-modules-systemjs-7.15.4.tgz'}
@@ -896,6 +924,8 @@ packages:
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/helper-validator-identifier': 7.15.7
       babel-plugin-dynamic-import-node: 2.3.3
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-modules-umd/7.14.5_@babel+core@7.15.5:
     resolution: {integrity: sha1-+2Yt/uaXzOJ0p82lJRkKeQlqpuA=, tarball: '@babel/plugin-transform-modules-umd/download/@babel/plugin-transform-modules-umd-7.14.5.tgz'}
@@ -906,6 +936,8 @@ packages:
       '@babel/core': 7.15.5
       '@babel/helper-module-transforms': 7.15.7
       '@babel/helper-plugin-utils': 7.14.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-named-capturing-groups-regex/7.14.9_@babel+core@7.15.5:
     resolution: {integrity: sha1-xo9cXRLS66ujdi5XwsT2NHpG57I=, tarball: '@babel/plugin-transform-named-capturing-groups-regex/download/@babel/plugin-transform-named-capturing-groups-regex-7.14.9.tgz'}
@@ -934,6 +966,8 @@ packages:
       '@babel/core': 7.15.5
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/helper-replace-supers': 7.15.4
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-parameters/7.15.4_@babel+core@7.10.5:
     resolution: {integrity: sha1-XyKFzDFgv0jIUCQycWtIUE0p7WI=, tarball: '@babel/plugin-transform-parameters/download/@babel/plugin-transform-parameters-7.15.4.tgz'}
@@ -1095,6 +1129,8 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.15.4_@babel+core@7.15.5
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/plugin-syntax-typescript': 7.14.5_@babel+core@7.15.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/plugin-transform-unicode-escapes/7.14.5_@babel+core@7.15.5:
     resolution: {integrity: sha1-nUvSpoHjxdes9PV/qeURddkdDGs=, tarball: '@babel/plugin-transform-unicode-escapes/download/@babel/plugin-transform-unicode-escapes-7.14.5.tgz'}
@@ -1234,6 +1270,8 @@ packages:
       '@babel/helper-plugin-utils': 7.14.5
       '@babel/helper-validator-option': 7.14.5
       '@babel/plugin-transform-typescript': 7.15.4_@babel+core@7.15.5
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/runtime-corejs3/7.15.4:
     resolution: {integrity: sha1-QDE5ryYrmm6Pm6BKb9zr+N5pK/E=, tarball: '@babel/runtime-corejs3/download/@babel/runtime-corejs3-7.15.4.tgz'}
@@ -1243,7 +1281,7 @@ packages:
       regenerator-runtime: 0.13.9
 
   /@babel/runtime/7.15.4:
-    resolution: {integrity: sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=, tarball: '@babel/runtime/download/@babel/runtime-7.15.4.tgz'}
+    resolution: {integrity: sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=, tarball: '@babel/runtime/download/@babel/runtime-7.15.4.tgz?cache=0&sync_timestamp=1632814644818&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.15.4.tgz'}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
@@ -1274,6 +1312,8 @@ packages:
       '@babel/types': 7.15.6
       debug: 4.3.2
       globals: 11.12.0
+    transitivePeerDependencies:
+      - supports-color
 
   /@babel/types/7.15.6:
     resolution: {integrity: sha1-mavcSCGLKIHAWN0KerBbmcm+dY8=, tarball: '@babel/types/download/@babel/types-7.15.6.tgz'}
@@ -1449,6 +1489,8 @@ packages:
       js-yaml: 3.14.1
       minimatch: 3.0.4
       strip-json-comments: 3.1.1
+    transitivePeerDependencies:
+      - supports-color
 
   /@gatsbyjs/reach-router/1.3.6_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha1-ToIlg2lZviR4kLZvIaMZigWJ400=, tarball: '@gatsbyjs/reach-router/download/@gatsbyjs/reach-router-1.3.6.tgz'}
@@ -1569,7 +1611,7 @@ packages:
       value-or-promise: 1.0.6
     dev: false
 
-  /@graphql-tools/url-loader/6.10.1_graphql@15.6.0:
+  /@graphql-tools/url-loader/6.10.1_b0f02bb444e0a23c019449443ad7d8c6:
     resolution: {integrity: sha1-3HQeQpng5930NeulCh9xOz52OzM=, tarball: '@graphql-tools/url-loader/download/@graphql-tools/url-loader-6.10.1.tgz'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0
@@ -1588,7 +1630,7 @@ packages:
       is-promise: 4.0.0
       isomorphic-ws: 4.0.1_ws@7.4.5
       lodash: 4.17.21
-      meros: 1.1.4
+      meros: 1.1.4_@types+node@16.10.2
       subscriptions-transport-ws: 0.9.19_graphql@15.6.0
       sync-fetch: 0.3.0
       tslib: 2.2.0
@@ -1673,6 +1715,8 @@ packages:
       '@humanwhocodes/object-schema': 1.2.0
       debug: 4.3.2
       minimatch: 3.0.4
+    transitivePeerDependencies:
+      - supports-color
 
   /@humanwhocodes/object-schema/1.2.0:
     resolution: {integrity: sha1-h956+cIxgm/daKxyWPd8Qp4OX88=, tarball: '@humanwhocodes/object-schema/download/@humanwhocodes/object-schema-1.2.0.tgz'}
@@ -2011,6 +2055,10 @@ packages:
 
   /@types/node/16.10.1:
     resolution: {integrity: sha1-82R2IxmcqSCWAAaz3M9jPqkF8kM=, tarball: '@types/node/download/@types/node-16.10.1.tgz'}
+
+  /@types/node/16.10.2:
+    resolution: {integrity: sha1-V2TKmqlEcK204Rhf4unxlFiZKy4=, tarball: '@types/node/download/@types/node-16.10.2.tgz'}
+    dev: true
 
   /@types/node/8.10.66:
     resolution: {integrity: sha1-3QNdQJ3zIqzIPf9ipgLxKleDu7M=, tarball: '@types/node/download/@types/node-8.10.66.tgz'}
@@ -2772,7 +2820,7 @@ packages:
     dependencies:
       '@babel/core': 7.15.5
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+      gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
       gatsby-core-utils: 2.14.0
     dev: false
 
@@ -4488,7 +4536,7 @@ packages:
       string-natural-compare: 3.0.1
     dev: false
 
-  /eslint-plugin-graphql/4.0.0_graphql@15.6.0+typescript@4.4.3:
+  /eslint-plugin-graphql/4.0.0_282d702737718240fbf0ccc852cde709:
     resolution: {integrity: sha1-0jj/K67k1jLPy+eHp6cKH1BCg1g=, tarball: eslint-plugin-graphql/download/eslint-plugin-graphql-4.0.0.tgz}
     engines: {node: '>=10.0'}
     peerDependencies:
@@ -4496,7 +4544,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       graphql: 15.6.0
-      graphql-config: 3.4.1_graphql@15.6.0+typescript@4.4.3
+      graphql-config: 3.4.1_282d702737718240fbf0ccc852cde709
       lodash.flatten: 4.4.0
       lodash.without: 4.4.0
     transitivePeerDependencies:
@@ -4745,6 +4793,8 @@ packages:
       table: 6.7.1
       text-table: 0.2.0
       v8-compile-cache: 2.3.0
+    transitivePeerDependencies:
+      - supports-color
 
   /espree/7.3.1:
     resolution: {integrity: sha1-8t8zC3Usb1UBn4vYm3ZgA5wbu7Y=, tarball: espree/download/espree-7.3.1.tgz}
@@ -5385,13 +5435,15 @@ packages:
       '@sindresorhus/slugify': 1.1.2
       chokidar: 3.5.2
       fs-exists-cached: 1.0.0
-      gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+      gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
       gatsby-core-utils: 2.14.0
       gatsby-page-utils: 1.14.0
       gatsby-plugin-utils: 1.14.0_gatsby@3.14.0
       gatsby-telemetry: 2.14.0
       globby: 11.0.4
       lodash: 4.17.21
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /gatsby-plugin-pnpm/1.2.8_gatsby@3.14.0:
@@ -5399,7 +5451,7 @@ packages:
     peerDependencies:
       gatsby: ~2.x.x || ~3.x.x
     dependencies:
-      gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+      gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
       lodash.get: 4.4.2
       lodash.uniq: 4.5.0
     dev: true
@@ -5412,7 +5464,7 @@ packages:
       react-helmet: ^5.1.3 || ^6.0.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+      gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
       react-helmet: 6.1.0_react@17.0.2
     dev: false
 
@@ -5429,7 +5481,7 @@ packages:
       '@babel/preset-typescript': 7.15.0_@babel+core@7.15.5
       '@babel/runtime': 7.15.4
       babel-plugin-remove-graphql-queries: 3.14.0_@babel+core@7.15.5+gatsby@3.14.0
-      gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+      gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5441,7 +5493,7 @@ packages:
       gatsby: ^3.0.0-next.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.0_bd7797d63db473de6e2318609a63c933
+      gatsby: 3.14.0_c903fbbed3779d4997c096d536a4f2e9
       joi: 17.4.2
     dev: false
 
@@ -5554,9 +5606,11 @@ packages:
     dependencies:
       '@babel/core': 7.15.5
       '@babel/runtime': 7.15.4
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
-  /gatsby/3.14.0_bd7797d63db473de6e2318609a63c933:
+  /gatsby/3.14.0_c903fbbed3779d4997c096d536a4f2e9:
     resolution: {integrity: sha1-BsJ0ZPGp0EQWnskQ0MnX70Tgsdg=, tarball: gatsby/download/gatsby-3.14.0.tgz}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -5616,7 +5670,7 @@ packages:
       eslint: 7.32.0
       eslint-config-react-app: 6.0.0_a4ecb377eae8af2bb84876a84728ec3f
       eslint-plugin-flowtype: 5.10.0_eslint@7.32.0
-      eslint-plugin-graphql: 4.0.0_graphql@15.6.0+typescript@4.4.3
+      eslint-plugin-graphql: 4.0.0_282d702737718240fbf0ccc852cde709
       eslint-plugin-import: 2.24.2_eslint@7.32.0
       eslint-plugin-jsx-a11y: 6.4.1_eslint@7.32.0
       eslint-plugin-react: 7.26.0_eslint@7.32.0
@@ -5845,7 +5899,7 @@ packages:
     resolution: {integrity: sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4=, tarball: glob-to-regexp/download/glob-to-regexp-0.4.1.tgz}
 
   /glob/7.2.0:
-    resolution: {integrity: sha1-0VU1r3cy4C6Uj0xBYovZECk/YCM=, tarball: glob/download/glob-7.2.0.tgz}
+    resolution: {integrity: sha1-0VU1r3cy4C6Uj0xBYovZECk/YCM=, tarball: glob/download/glob-7.2.0.tgz?cache=0&sync_timestamp=1633019289657&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fglob%2Fdownload%2Fglob-7.2.0.tgz}
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -5968,7 +6022,7 @@ packages:
     dev: true
 
   /got/11.8.2:
-    resolution: {integrity: sha1-ers5Weoowx81dvFXbB7/ziPzNZk=, tarball: got/download/got-11.8.2.tgz}
+    resolution: {integrity: sha1-ers5Weoowx81dvFXbB7/ziPzNZk=, tarball: got/download/got-11.8.2.tgz?cache=0&sync_timestamp=1633017392120&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fgot%2Fdownload%2Fgot-11.8.2.tgz}
     engines: {node: '>=10.19.0'}
     dependencies:
       '@sindresorhus/is': 4.2.0
@@ -5985,7 +6039,7 @@ packages:
     dev: false
 
   /got/9.6.0:
-    resolution: {integrity: sha1-7fRefWf5lUVwXeH3u+7rEhdl7YU=, tarball: got/download/got-9.6.0.tgz}
+    resolution: {integrity: sha1-7fRefWf5lUVwXeH3u+7rEhdl7YU=, tarball: got/download/got-9.6.0.tgz?cache=0&sync_timestamp=1633017392120&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fgot%2Fdownload%2Fgot-9.6.0.tgz}
     engines: {node: '>=8.6'}
     dependencies:
       '@sindresorhus/is': 0.14.0
@@ -6014,7 +6068,7 @@ packages:
       object-path: 0.11.5
     dev: false
 
-  /graphql-config/3.4.1_graphql@15.6.0+typescript@4.4.3:
+  /graphql-config/3.4.1_282d702737718240fbf0ccc852cde709:
     resolution: {integrity: sha1-Wfk3obTTo8Lc2yfd9bTU1LLG6eE=, tarball: graphql-config/download/graphql-config-3.4.1.tgz}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
@@ -6025,7 +6079,7 @@ packages:
       '@graphql-tools/json-file-loader': 6.2.6_graphql@15.6.0
       '@graphql-tools/load': 6.2.8_graphql@15.6.0
       '@graphql-tools/merge': 6.2.14_graphql@15.6.0
-      '@graphql-tools/url-loader': 6.10.1_graphql@15.6.0
+      '@graphql-tools/url-loader': 6.10.1_b0f02bb444e0a23c019449443ad7d8c6
       '@graphql-tools/utils': 7.10.0_graphql@15.6.0
       cosmiconfig: 7.0.0
       cosmiconfig-toml-loader: 1.0.0
@@ -7258,7 +7312,7 @@ packages:
     dev: true
 
   /lodash/4.17.21:
-    resolution: {integrity: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=, tarball: lodash/download/lodash-4.17.21.tgz}
+    resolution: {integrity: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=, tarball: lodash/download/lodash-4.17.21.tgz?cache=0&sync_timestamp=1632820929452&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Flodash%2Fdownload%2Flodash-4.17.21.tgz}
 
   /log-symbols/2.2.0:
     resolution: {integrity: sha1-V0Dhxdbw39pK2TI7UzIQfva0xAo=, tarball: log-symbols/download/log-symbols-2.2.0.tgz}
@@ -7585,7 +7639,7 @@ packages:
     resolution: {integrity: sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=, tarball: merge2/download/merge2-1.4.1.tgz}
     engines: {node: '>= 8'}
 
-  /meros/1.1.4:
+  /meros/1.1.4_@types+node@16.10.2:
     resolution: {integrity: sha1-wXmU0xM9uLI4B/Yr7H8MsnbP2Ug=, tarball: meros/download/meros-1.1.4.tgz}
     engines: {node: '>=12'}
     peerDependencies:
@@ -7593,6 +7647,8 @@ packages:
     peerDependenciesMeta:
       '@types/node':
         optional: true
+    dependencies:
+      '@types/node': 16.10.2
     dev: false
 
   /methods/1.1.2:
@@ -9479,6 +9535,8 @@ packages:
       '@babel/plugin-proposal-object-rest-spread': 7.10.4_@babel+core@7.10.5
       '@babel/plugin-syntax-jsx': 7.10.4_@babel+core@7.10.5
       '@mdx-js/util': 2.0.0-next.8
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /remark-parse/6.0.3:
@@ -10020,6 +10078,8 @@ packages:
       '@types/component-emitter': 1.2.10
       component-emitter: 1.3.0
       debug: 4.3.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /socket.io/3.1.1:
