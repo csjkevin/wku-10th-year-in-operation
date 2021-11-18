@@ -16,6 +16,7 @@ export const HEAD_PICTURES: PictureProp[] = [
 export const NAV_ITEMS = [
   { name: '校庆公告', anchor: 'annoucement' },
   { name: '校庆新闻', anchor: 'news' },
+  { name: '校庆日程', href: 'https://wku.edu.cn/10th-anniversary-agenda/', target: '_blank' },
   { name: '十年人物', anchor: 'person' },
   { name: '校友故事', anchor: 'alumni' },
   { name: '校友捐赠', href: 'https://wku.edu.cn/jgsz/jjh/jzfs/', target: '_blank' },
