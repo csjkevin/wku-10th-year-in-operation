@@ -16,6 +16,7 @@ export const HEAD_PICTURES: PictureProp[] = [
 export const NAV_ITEMS = [
   { name: '校庆公告', anchor: 'annoucement' },
   { name: '校庆新闻', anchor: 'news' },
+  { name: '十年人物', anchor: 'person' },
   { name: '校友故事', anchor: 'alumni' },
   { name: '校友捐赠', href: 'https://wku.edu.cn/jgsz/jjh/jzfs/', target: '_blank' },
   { name: '影像温肯', anchor: 'gallery' },
@@ -76,6 +77,51 @@ export const NEWS_LIST: News[] = [
     href: 'https://wku.edu.cn/2021/10/26/61198/',
     imgSrc:
       'https://p6.toutiaoimg.com/img/pgc-image/926e8bbf66da4d5cbc068cb8ee2edb27~tplv-tt-shrink:640:0.image',
+  },
+];
+
+export const PERSON_LIST: News[] = [
+  {
+    date: '2021年11月16日',
+    title: '温肯10周年校庆 | 校友故事：林肯——我与温肯的3300天',
+    href: 'https://wku.edu.cn/2021/11/16/62005/',
+    imgSrc:
+      'https://p26.toutiaoimg.com/img/pgc-image/c5904e32a9ec43ce832edea9424018d6~tplv-tt-shrink:640:0.image',
+  },
+  {
+    date: '2021年11月16日',
+    title: '10周年校友故事 | 陈风雅——从温肯出发，与世界和自己对话',
+    href: 'https://wku.edu.cn/2021/11/16/62033/',
+    imgSrc:
+      'https://p6.toutiaoimg.com/origin/pgc-image/126c5caa34d74a9880bdcdbbf47bf4cc.png?from=pc',
+  },
+  {
+    date: '2021年11月16日',
+    title: '我在温肯这十年④：在这个家里，他们感怀师恩、收获爱情……',
+    href: 'https://wku.edu.cn/2021/11/16/62009/',
+    imgSrc:
+      'https://p9.toutiaoimg.com/origin/pgc-image/7b499b27ac4546cbbac28a295757a7e8.png?from=pc',
+  },
+  {
+    date: '2021年11月16日',
+    title: '温肯10周年校庆丨我在温肯这十年③：种下大树种子的人',
+    href: 'https://wku.edu.cn/2021/11/16/62001/',
+    imgSrc:
+      'https://p5.toutiaoimg.com/img/pgc-image/8d9d9562390a452e8ae67dcdb4e794ba~tplv-tt-shrink:640:0.image',
+  },
+  {
+    date: '2021年11月04日',
+    title: '温肯10周年校庆｜我在温肯这十年②：十年相伴，他们用技术为学生勾勒未来可能的模样',
+    href: 'https://wku.edu.cn/2021/11/04/61636/',
+    imgSrc:
+      'https://p9.toutiaoimg.com/origin/pgc-image/7ee4105f2fbd403eb5c810d03cfcf152.png?from=pc',
+  },
+  {
+    date: '2021年11月02日',
+    title: '温肯10周年校庆｜我在温肯这十年①：探索、创新 十年前，我走进温肯想开阔视野',
+    href: 'https://wku.edu.cn/2021/11/02/61531/',
+    imgSrc:
+      'https://p5.toutiaoimg.com/img/pgc-image/c7631a95d4584ec5b90babc85065240e~tplv-tt-shrink:640:0.image',
   },
 ];
 

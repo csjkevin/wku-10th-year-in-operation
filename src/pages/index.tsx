@@ -14,6 +14,7 @@ import {
   HEAD_PICTURES,
   NAV_ITEMS,
   NEWS_LIST,
+  PERSON_LIST,
 } from '../constant';
 import HeadPicture from '../components/HeadPicture';
 import AnnoucementCards from '../components/AnnoucementCards';
@@ -62,6 +63,9 @@ const Index: React.FC = () => {
           <a href="https://wku.edu.cn/news/archive/" target="_blank">
             <button className={styles.viewMoreButton}>查看更多</button>
           </a>
+        </Section>
+        <Section id="person" title="十年人物" subTitle="Persons">
+          <NewsCards list={PERSON_LIST} />
         </Section>
         <Section id="alumni" title="校友故事" subTitle="Alumni">
           <AlumniCards list={ALUMNI_LIST} />
