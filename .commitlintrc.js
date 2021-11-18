@@ -18,5 +18,7 @@ module.exports = {
         'test',
       ],
     ],
+    'type-empty': [0],
+    'subject-empty': [0],
   },
 };
