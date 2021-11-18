@@ -1,0 +1,108 @@
+footer {
+  width: 100%;
+  padding: 2.25rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(0, 55, 103), rgba(147, 185, 220));
+}
+
+.footerText {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.logoContainer {
+  background: url(../../../assets/images/footer_number_3840.png) no-repeat center center;
+  background-size: contain;
+}
+
+:global(.webp) .logoContainer {
+  background-image: url(../../../assets/images/footer_number_3840.webp);
+}
+
+@media (max-width: 1920px) {
+  .logoContainer {
+    background-image: image-set(
+      url(../../../assets/images/footer_number_1920.png) 1x,
+      url(../../../assets/images/footer_number_3840.png) 2x
+    );
+  }
+
+  :global(.webp) .logoContainer {
+    background-image: image-set(
+      url(../../../assets/images/footer_number_1920.webp) 1x,
+      url(../../../assets/images/footer_number_3840.webp) 2x
+    );
+  }
+}
+
+@media (max-width: 1280px) {
+  .logoContainer {
+    background-image: image-set(
+      url(../../../assets/images/footer_number_1280.png) 1x,
+      url(../../../assets/images/footer_number_2560.png) 2x,
+      url(../../../assets/images/footer_number_3840.png) 3x
+    );
+  }
+
+  :global(.webp) .logoContainer {
+    background-image: image-set(
+      url(../../../assets/images/footer_number_1280.webp) 1x,
+      url(../../../assets/images/footer_number_2560.webp) 2x,
+      url(../../../assets/images/footer_number_3840.webp) 3x
+    );
+  }
+}
+
+@media (max-width: 640px) {
+  .logoContainer {
+    background-image: image-set(
+      url(../../../assets/images/footer_number_640.png) 1x,
+      url(../../../assets/images/footer_number_1280.png) 2x,
+      url(../../../assets/images/footer_number_1920.png) 3x
+    );
+  }
+
+  :global(.webp) .logoContainer {
+    background-image: image-set(
+      url(../../../assets/images/footer_number_640.webp) 1x,
+      url(../../../assets/images/footer_number_1280.webp) 2x,
+      url(../../../assets/images/footer_number_1920.webp) 3x
+    );
+  }
+}
+
+.logo {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 0 1.25rem;
+}
+
+.logo :not(:first-child) {
+  position: absolute;
+}
+
+.logo > picture > img {
+  width: 10rem;
+  height: 10rem;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+@media (max-width: 414px) {
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .logo > picture > img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.logo picture.active img {
+  opacity: 1;
+}

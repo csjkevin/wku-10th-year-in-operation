@@ -1,0 +1,20 @@
+.sectionTitle {
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.titleCN {
+  color: rgb(34, 78, 156);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.titleEN {
+  margin-left: 0.5rem;
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-transform: uppercase;
+}

@@ -1,0 +1,47 @@
+.annoucement {
+  width: 20vw;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  background: #fafafa;
+  border-top: 0.25rem solid var(--pantone-540);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 414px) {
+  .annoucement {
+    width: calc(70vw - 1rem);
+  }
+}
+
+.date {
+  color: #636363;
+}
+
+.day {
+  font-size: 2rem;
+}
+
+.month {
+  padding-left: 0.25rem;
+  font-size: 1rem;
+}
+
+.title {
+  min-height: 3.5rem;
+  margin: 0.25rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.more {
+  text-align: right;
+}
+
+.annoucement a {
+  color: var(--pantone-540);
+  font-size: 1rem;
+}

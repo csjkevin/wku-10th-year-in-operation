@@ -1,0 +1,22 @@
+.galleryContainer {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.galleryContainer .imgContainer {
+  width: 34vw;
+  height: 25.5vw;
+  transition: 2s;
+  flex-shrink: 0;
+}
+
+.gallery {
+  margin-left: -1vw;
+  display: flex;
+}
+
+.gallery img {
+  width: 34vw;
+  height: 25.5vw;
+  object-fit: cover;
+}

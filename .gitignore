@@ -4,3 +4,7 @@ public
 .eslintcache
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
+.env.*
+assets/
+public.zip
