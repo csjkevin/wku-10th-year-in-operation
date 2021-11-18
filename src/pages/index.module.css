@@ -33,3 +33,17 @@
   border: 0;
   padding: 0 70px;
 }
+
+.videoContainer {
+  text-align: center;
+}
+
+.videoContainer video {
+  width: 60vw;
+}
+
+@media (max-width: 414px) {
+  .videoContainer video {
+    width: 70vw;
+  }
+}

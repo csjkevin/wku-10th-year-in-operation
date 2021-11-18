@@ -59,6 +59,16 @@ const Index: React.FC = () => {
         <Section id="message" title="领导寄语" subTitle="Message">
           <Message />
         </Section>
+        <Section id="video" title="温肯十年" subTitle="Video">
+          <div className={styles.videoContainer}>
+            <video controls poster={withPrefix('/images/video-thumbnail.jpg')}>
+              <source
+                src="https://wku.edu.cn/wp-content/uploads/video/anniversary.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </Section>
         <Section id="annoucement" title="校庆公告" subTitle="Annoucements">
           <AnnoucementCards list={ANNOUCEMENT_LIST} />
         </Section>
