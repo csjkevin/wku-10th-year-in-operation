@@ -19,6 +19,7 @@ const NewsCards: React.FC<Props> = (props) => {
           title={item.title}
           href={item.href}
           imgSrc={item.imgSrc}
+          imgPosition={item.imgPosition}
         />
       ));
     }

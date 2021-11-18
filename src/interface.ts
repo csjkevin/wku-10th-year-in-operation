@@ -30,6 +30,7 @@ export interface News {
   title?: string;
   href?: string;
   imgSrc?: string;
+  imgPosition?: 'left' | 'right';
 }
 
 export interface Alumni {
