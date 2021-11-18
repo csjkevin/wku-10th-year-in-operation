@@ -22,6 +22,7 @@ import NewsCards from '../components/NewsCards';
 import AlumniCards from '../components/AlumniCards';
 import Picture from '../components/Picture';
 import type { SrcSet } from '../interface';
+import Message from '../components/Message';
 
 const srcSets: SrcSet[] = [
   { dimensions: [960] },
@@ -55,6 +56,9 @@ const Index: React.FC = () => {
       </div>
       <HeadPicture imgList={HEAD_PICTURES} />
       <main>
+        <Section id="message" title="领导寄语" subTitle="Message">
+          <Message />
+        </Section>
         <Section id="annoucement" title="校庆公告" subTitle="Annoucements">
           <AnnoucementCards list={ANNOUCEMENT_LIST} />
         </Section>

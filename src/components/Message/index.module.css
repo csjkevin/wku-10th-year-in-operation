@@ -1,0 +1,33 @@
+.container {
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.container > p {
+  line-height: 2.5;
+  text-indent: 2rem;
+}
+
+.container img {
+  width: 18rem;
+  width: 18rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.leaders {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leaders div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.leaders p {
+  text-align: center;
+}
