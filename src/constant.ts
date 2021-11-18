@@ -87,6 +87,7 @@ export const PERSON_LIST: News[] = [
     href: 'https://wku.edu.cn/2021/11/16/62005/',
     imgSrc:
       'https://p26.toutiaoimg.com/img/pgc-image/c5904e32a9ec43ce832edea9424018d6~tplv-tt-shrink:640:0.image',
+    imgPosition: 'left',
   },
   {
     date: '2021年11月16日',
@@ -94,6 +95,7 @@ export const PERSON_LIST: News[] = [
     href: 'https://wku.edu.cn/2021/11/16/62033/',
     imgSrc:
       'https://p6.toutiaoimg.com/origin/pgc-image/126c5caa34d74a9880bdcdbbf47bf4cc.png?from=pc',
+    imgPosition: 'right',
   },
   {
     date: '2021年11月16日',
@@ -101,6 +103,7 @@ export const PERSON_LIST: News[] = [
     href: 'https://wku.edu.cn/2021/11/16/62009/',
     imgSrc:
       'https://p9.toutiaoimg.com/origin/pgc-image/7b499b27ac4546cbbac28a295757a7e8.png?from=pc',
+    imgPosition: 'right',
   },
   {
     date: '2021年11月16日',
