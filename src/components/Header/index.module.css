@@ -100,7 +100,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1130px) {
   .navList {
     display: none;
   }
@@ -126,14 +126,14 @@
   margin: 1.75rem 0;
 }
 
-@media (min-width: 415px) {
+@media (min-width: 1130px) {
   .mobileNav {
     display: none;
   }
 }
 
 .mobileNav.expanded {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
 }
 
 .mobileNavButton {
@@ -163,5 +163,5 @@
 }
 
 .mobileNav.expanded .mobileNavList {
-  height: 7.5rem;
+  height: 12.5rem;
 }

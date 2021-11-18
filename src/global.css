@@ -17,13 +17,22 @@ img {
   width: 100%;
 }
 
-a {
+a,
+a:visited {
   text-decoration: none;
   cursor: pointer;
+  color: #fff;
 }
 
 button {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 414px) {
