@@ -50,11 +50,25 @@ export const ANNOUCEMENT_LIST: Annoucement[] = [
 
 export const NEWS_LIST: News[] = [
   {
-    date: '2021年10月26日',
-    title: '温肯10周年校庆 | 十年之路·温肯校园跑，Running WKUers！',
-    href: 'https://mp.weixin.qq.com/s/gqPzi7O6DFoDVYJaf4Tu4w',
+    date: '2021年11月10日',
+    title: '一览温肯十年，我们用跑的 | “十年之路”温肯校园跑校庆活动圆满落幕',
+    href: 'https://wku.edu.cn/2021/11/10/61836/',
     imgSrc:
-      'https://p6.toutiaoimg.com/img/pgc-image/926e8bbf66da4d5cbc068cb8ee2edb27~tplv-tt-shrink:640:0.image',
+      'https://p3.toutiaoimg.com/img/pgc-image/b203cc01925e412d909d4fb62018d4e8~tplv-tt-shrink:640:0.image',
+  },
+  {
+    date: '2021年11月03日',
+    title: '温肯10周年校庆｜校庆新晋打卡点！快来看看有谁霸屏了朋友圈',
+    href: 'https://wku.edu.cn/2021/11/03/61602/',
+    imgSrc:
+      'https://p3.toutiaoimg.com/origin/pgc-image/9fa529d1b839469b87ac2c9ef316550f.png?from=pc',
+  },
+  {
+    date: '2021年11月01日',
+    title: '温肯10周年校庆丨绿色发展论坛重磅来袭，这张表GET到你了吗？',
+    href: 'https://wku.edu.cn/2021/11/01/61473/',
+    imgSrc:
+      'https://p5.toutiaoimg.com/origin/pgc-image/4011acdf375e42849aabfb83236a9c92.png?from=pc',
   },
   {
     date: '2021年10月26日',
@@ -62,34 +76,6 @@ export const NEWS_LIST: News[] = [
     href: 'https://wku.edu.cn/2021/10/26/61198/',
     imgSrc:
       'https://p6.toutiaoimg.com/img/pgc-image/926e8bbf66da4d5cbc068cb8ee2edb27~tplv-tt-shrink:640:0.image',
-  },
-  {
-    date: '2021年06月22日',
-    title: '这张“递给世界的温州名片”，请你查收！揭秘温州肯恩大学十周年办学成果展',
-    href: 'https://wku.edu.cn/2021/06/22/57521/',
-    imgSrc:
-      'https://p6-tt.byteimg.com/origin/pgc-image/6ac6c18b04f647179270cf6b91206882.png?from=pc',
-  },
-  {
-    date: '2021年06月02日',
-    title: '一座桥架起中外交流，温肯牵手泰顺共促廊桥文化在全世界传播',
-    href: 'https://wku.edu.cn/2021/06/02/57124/',
-    imgSrc:
-      'https://p1-tt.byteimg.com/origin/pgc-image/31df31673ed54a5c80f9f03cff054f87.png?from=pc',
-  },
-  {
-    date: '2021年05月10日',
-    title: '温州肯恩大学举行国际化、高水平大学建设推进会',
-    href: 'https://wku.edu.cn/2021/05/10/56326/',
-    imgSrc:
-      'https://p26.toutiaoimg.com/img/pgc-image/811234cb91924c96ad4886cf21d62c87~tplv-tt-shrink:640:0.image',
-  },
-  {
-    date: '2021年04月16日',
-    title: '献礼十周年校庆丨美图直击！井盖美化，我为校园换换新装',
-    href: 'https://wku.edu.cn/2021/04/16/59546/',
-    imgSrc:
-      'https://p3.toutiaoimg.com/img/pgc-image/5c07dc98f44c4f7bb3e4d165fbbb5993~tplv-tt-shrink:640:0.image',
   },
 ];
 
