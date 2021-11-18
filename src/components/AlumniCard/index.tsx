@@ -8,7 +8,7 @@ const AlumniCard: React.FC<Alumni> = (props) => {
   const { name, desc, href, avatarUrl } = props;
   return (
     <div className={styles.alimni}>
-      <img src={withPrefix(avatarUrl)} alt={name} />
+      <img src={withPrefix(avatarUrl || '')} alt={name} />
       <div className={styles.right}>
         <a href={href} target="_blank">
           <div className={styles.name}>{name}</div>
