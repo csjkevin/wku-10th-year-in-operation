@@ -23,14 +23,14 @@ const Picture: React.FC<Props> = (props) => {
           <>
             {webp ? (
               <source
-                key={media}
+                key={`${media} webp`}
                 srcSet={generateSrcSet(srcPrefix, dimensions, 'webp')}
                 {...(media ? { media } : {})}
                 type="image/webp"
               />
             ) : null}
             <source
-              key={media}
+              key={`${media}`}
               srcSet={generateSrcSet(srcPrefix, dimensions, srcPostfix)}
               {...(media ? { media } : {})}
             />
