@@ -52,6 +52,20 @@ export const ANNOUCEMENT_LIST: Annoucement[] = [
 
 export const NEWS_LIST: News[] = [
   {
+    date: '2021年11月18日',
+    title: '温肯10周年校庆 | 上新！专属限定周边',
+    href: 'https://wku.edu.cn/2021/11/18/62134/',
+    imgSrc:
+      'https://p9.toutiaoimg.com/img/pgc-image/7613824e7b624b4da8bb1323f6a3a5f5~tplv-tt-shrink:640:0.image',
+  },
+  {
+    date: '2021年11月17日',
+    title: '温肯10周年校庆｜这份10周年爱心倡议书，请收好',
+    href: 'https://wku.edu.cn/2021/11/17/62080/',
+    imgSrc:
+      'https://p3.toutiaoimg.com/origin/pgc-image/b90b4b9b2e7349e7a8ea9b3383868e3d.png?from=pc',
+  },
+  {
     date: '2021年11月10日',
     title: '一览温肯十年，我们用跑的 | “十年之路”温肯校园跑校庆活动圆满落幕',
     href: 'https://wku.edu.cn/2021/11/10/61836/',
@@ -65,38 +79,15 @@ export const NEWS_LIST: News[] = [
     imgSrc:
       'https://p3.toutiaoimg.com/origin/pgc-image/9fa529d1b839469b87ac2c9ef316550f.png?from=pc',
   },
-  {
-    date: '2021年11月01日',
-    title: '温肯10周年校庆丨绿色发展论坛重磅来袭，这张表GET到你了吗？',
-    href: 'https://wku.edu.cn/2021/11/01/61473/',
-    imgSrc:
-      'https://p5.toutiaoimg.com/origin/pgc-image/4011acdf375e42849aabfb83236a9c92.png?from=pc',
-  },
-  {
-    date: '2021年10月26日',
-    title: '温肯10周年校庆｜WKU题库强势来袭，挑战温肯“最强大脑”！',
-    href: 'https://wku.edu.cn/2021/10/26/61198/',
-    imgSrc:
-      'https://p6.toutiaoimg.com/img/pgc-image/926e8bbf66da4d5cbc068cb8ee2edb27~tplv-tt-shrink:640:0.image',
-  },
 ];
 
 export const PERSON_LIST: News[] = [
   {
-    date: '2021年11月16日',
-    title: '温肯10周年校庆 | 校友故事：林肯——我与温肯的3300天',
-    href: 'https://wku.edu.cn/2021/11/16/62005/',
+    date: '2021年11月18日',
+    title: '我在温肯这十年⑤ | Jennifer Marquardt：学生促我快速成长，​教学新模式凝聚领导力',
+    href: 'https://wku.edu.cn/2021/11/18/62238/',
     imgSrc:
-      'https://p26.toutiaoimg.com/img/pgc-image/c5904e32a9ec43ce832edea9424018d6~tplv-tt-shrink:640:0.image',
-    imgPosition: 'left',
-  },
-  {
-    date: '2021年11月16日',
-    title: '10周年校友故事 | 陈风雅——从温肯出发，与世界和自己对话',
-    href: 'https://wku.edu.cn/2021/11/16/62033/',
-    imgSrc:
-      'https://p6.toutiaoimg.com/origin/pgc-image/126c5caa34d74a9880bdcdbbf47bf4cc.png?from=pc',
-    imgPosition: 'right',
+      'https://p9.toutiaoimg.com/origin/pgc-image/e6a1d6e129b843939cd718181fde16fb.png?from=pc',
   },
   {
     date: '2021年11月16日',
@@ -126,6 +117,29 @@ export const PERSON_LIST: News[] = [
     href: 'https://wku.edu.cn/2021/11/02/61531/',
     imgSrc:
       'https://p5.toutiaoimg.com/img/pgc-image/c7631a95d4584ec5b90babc85065240e~tplv-tt-shrink:640:0.image',
+  },
+  {
+    date: '2021年11月18日',
+    title: '温肯校友故事系列 | 徐海宁——创业，是一条不断向前的路',
+    href: 'https://wku.edu.cn/2021/11/18/62234/',
+    imgSrc:
+      'https://p26.toutiaoimg.com/origin/pgc-image/0b7459f062fc4f979faee199a2ab275b.png?from=pc',
+  },
+  {
+    date: '2021年11月16日',
+    title: '温肯10周年校庆 | 校友故事：林肯——我与温肯的3300天',
+    href: 'https://wku.edu.cn/2021/11/16/62005/',
+    imgSrc:
+      'https://p26.toutiaoimg.com/img/pgc-image/c5904e32a9ec43ce832edea9424018d6~tplv-tt-shrink:640:0.image',
+    imgPosition: 'left',
+  },
+  {
+    date: '2021年11月16日',
+    title: '10周年校友故事 | 陈风雅——从温肯出发，与世界和自己对话',
+    href: 'https://wku.edu.cn/2021/11/16/62033/',
+    imgSrc:
+      'https://p6.toutiaoimg.com/origin/pgc-image/126c5caa34d74a9880bdcdbbf47bf4cc.png?from=pc',
+    imgPosition: 'right',
   },
 ];
 
