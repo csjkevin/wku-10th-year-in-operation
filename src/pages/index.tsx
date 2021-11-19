@@ -56,37 +56,39 @@ const Index: React.FC = () => {
       </div>
       <HeadPicture imgList={HEAD_PICTURES} />
       <main>
-        <Section id="message" title="领导寄语" subTitle="Message">
-          <Message />
-        </Section>
-        <Section id="video" title="温肯十年" subTitle="Video">
-          <div className={styles.videoContainer}>
-            <video controls poster={withPrefix('/images/video-thumbnail.jpg')}>
-              <source
-                src="https://wku.edu.cn/wp-content/uploads/video/anniversary.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-        </Section>
-        <Section id="annoucement" title="校庆公告" subTitle="Annoucements">
-          <AnnoucementCards list={ANNOUCEMENT_LIST} />
-        </Section>
-        <Section id="news" title="校庆新闻" subTitle="News">
-          <NewsCards list={NEWS_LIST} />
-          <a href="https://wku.edu.cn/news/archive/" target="_blank">
-            <button className={styles.viewMoreButton}>查看更多</button>
-          </a>
-        </Section>
-        <Section id="person" title="十年人物" subTitle="Persons">
-          <NewsCards list={PERSON_LIST} />
-        </Section>
-        <Section id="alumni" title="校友故事" subTitle="Alumni">
-          <AlumniCards list={ALUMNI_LIST} />
-          <a href="https://wku.edu.cn/jgsz/xyh/xydt/" target="_blank">
-            <button className={styles.viewMoreButton}>查看更多</button>
-          </a>
-        </Section>
+        <div className={styles.container}>
+          <Section id="message" title="领导寄语" subTitle="Message">
+            <Message />
+          </Section>
+          <Section id="video" title="温肯十年" subTitle="Video">
+            <div className={styles.videoContainer}>
+              <video controls poster={withPrefix('/images/video-thumbnail.jpg')}>
+                <source
+                  src="https://wku.edu.cn/wp-content/uploads/video/anniversary.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </Section>
+          <Section id="annoucement" title="校庆公告" subTitle="Annoucements">
+            <AnnoucementCards list={ANNOUCEMENT_LIST} />
+          </Section>
+          <Section id="news" title="校庆新闻" subTitle="News">
+            <NewsCards list={NEWS_LIST} />
+            <a href="https://wku.edu.cn/news/archive/" target="_blank">
+              <button className={styles.viewMoreButton}>查看更多</button>
+            </a>
+          </Section>
+          <Section id="person" title="十年人物" subTitle="Persons">
+            <NewsCards list={PERSON_LIST} />
+          </Section>
+          <Section id="alumni" title="校友故事" subTitle="Alumni">
+            <AlumniCards list={ALUMNI_LIST} />
+            <a href="https://wku.edu.cn/jgsz/xyh/xydt/" target="_blank">
+              <button className={styles.viewMoreButton}>查看更多</button>
+            </a>
+          </Section>
+        </div>
         <Section id="gallery" title="影像温肯" subTitle="Photos">
           <Gallery imgList={GALLERY_IMAGES} />
         </Section>

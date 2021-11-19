@@ -1,7 +1,7 @@
 .news {
   position: relative;
   display: block;
-  width: 20vw;
+  width: 18vw;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 2rem;
@@ -11,8 +11,8 @@
 }
 
 .news img {
-  width: 20vw;
-  height: 15vw;
+  width: 18vw;
+  height: 13.5vw;
   object-fit: cover;
 }
 
